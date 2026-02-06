@@ -37,12 +37,6 @@ def page1():
     st.title("Welcome to the Customer Churn Prediction App")
 
     st.markdown("""
-        ### Group 3 Members
-        - 1.Stephen Kwesi Darko - 22253086 - Group Leader
-        - 2.Michael Boakye Sarpong - 11410789
-        - 3.Clifford Srekumah Gli - 22252473
-        - 4.Joseph Kingsley Nana Safo - 22255408
-        - 5.Emefa Akaba – 22260476
         ### Overview
         This application is designed to help you **analyze and predict customer churn** based on a telecom customer dataset.
 
@@ -626,3 +620,4 @@ select_page = st.sidebar.selectbox('Select Page', list(pages.keys()))
 
 # Display pages when clicked
 pages[select_page]()
+
