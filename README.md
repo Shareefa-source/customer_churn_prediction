@@ -153,6 +153,9 @@ Random Forest provided the best overall balance between recall and ROC-AUC, maki
 - Promote value-added services to improve retention
 
 
+--- 
+
+
 ## 🖥️ Streamlit Web Application
 
 The Streamlit app allows users to:
@@ -196,6 +199,3 @@ Streamlit
 
 ---
 
-
-**Sharifatu Musah**
-Data Analyst
