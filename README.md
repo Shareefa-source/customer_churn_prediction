@@ -115,13 +115,13 @@ ROC curves
 
 ## Key Insights from Analysis
 
-Customers on month-to-month contracts are significantly more likely to churn than those on long-term contracts.
+- Customers on month-to-month contracts are significantly more likely to churn than those on long-term contracts.
 
-Higher monthly charges strongly correlate with increased churn risk.
+- Higher monthly charges strongly correlate with increased churn risk.
 
-Customers with longer tenure show substantially lower churn rates.
+- Customers with longer tenure show substantially lower churn rates.
 
-Value-added services such as Online Security and Tech Support are associated with improved customer retention.
+- Value-added services such as Online Security and Tech Support are associated with improved customer retention.
 
 
 ---
@@ -142,6 +142,15 @@ Value-added services such as Online Security and Tech Support are associated wit
 
 ## Model Selection Rationale
 Random Forest provided the best overall balance between recall and ROC-AUC, making it suitable for identifying at-risk customers while minimizing false negatives.
+
+
+---
+
+
+## 📌 Recommendations
+- Incentivize long-term contracts for high-risk customers
+- Offer discounts to customers with high monthly charges
+- Promote value-added services to improve retention
 
 
 ## 🖥️ Streamlit Web Application
