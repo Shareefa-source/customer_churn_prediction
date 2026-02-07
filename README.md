@@ -130,5 +130,16 @@ Streamlit
 ---
 
 ## 👤 Author
+**Sharifatu Musah**  
+ Data Analyst  
+**Skills**: SQL | Python | Power BI | Machine Learning  
+
+
+
+
+
+---
+
+## 👤 Author
 **Sharifatu Musah**
 Data Analyst
