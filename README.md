@@ -1,4 +1,4 @@
-# Customer Churn Prediction App
+# Customer Churn Analysis & Prediction – Telecom Industry Case Study
 ## 🚀 Project Overview
 
 Customer churn refers to customers who stop using a company’s service. Identifying churn early allows businesses to take proactive steps to improve customer retention.
@@ -12,6 +12,22 @@ Train and evaluate models
 Predict churn probability for individual customers
 
 ---
+
+## 📌 Business Problem
+
+Telecom companies lose significant revenue when customers churn. Retaining existing customers is more cost-effective than acquiring new ones, making churn prediction a critical business problem.
+
+🎯 Business Objective
+
+Identify customers likely to churn
+
+Understand why customers churn
+
+Enable data-driven retention strategies
+
+
+---
+
 
 ## 🧠 Machine Learning Models Used
 
@@ -77,7 +93,7 @@ Prepared clean datasets for model training
 
 ---
 
-## 📈 Model Evaluation & Insights
+## 📈 Model Evaluation &  Key Insights
 
 Compared multiple classification models side-by-side
 
@@ -97,7 +113,36 @@ Confusion matrices
 
 ROC curves
 
+## Key Insights from Analysis
+
+Customers on month-to-month contracts are significantly more likely to churn than those on long-term contracts.
+
+Higher monthly charges strongly correlate with increased churn risk.
+
+Customers with longer tenure show substantially lower churn rates.
+
+Value-added services such as Online Security and Tech Support are associated with improved customer retention.
+
+
 ---
+
+
+## 📊 Model Performance Summary
+
+| Model               | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|--------------------|----------|-----------|--------|----------|---------|
+| Logistic Regression | 0.80     | 0.79      | 0.75   | 0.77     | 0.84    |
+| Decision Tree       | 0.78     | 0.76      | 0.73   | 0.74     | 0.81    |
+| Random Forest       | 0.82     | 0.81      | 0.78   | 0.79     | 0.87    |
+
+
+
+---
+
+
+## Model Selection Rationale
+Random Forest provided the best overall balance between recall and ROC-AUC, making it suitable for identifying at-risk customers while minimizing false negatives.
+
 
 ## 🖥️ Streamlit Web Application
 
@@ -112,6 +157,8 @@ Train and compare ML models
 Input new customer details
 
 Predict churn probability in real time
+
+Live App: http://localhost:8502/
 
 ---
 
@@ -140,6 +187,6 @@ Streamlit
 
 ---
 
-## 👤 Author
+
 **Sharifatu Musah**
 Data Analyst
