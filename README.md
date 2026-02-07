@@ -112,3 +112,23 @@ Train and compare ML models
 Input new customer details
 
 Predict churn probability in real time
+
+---
+
+## 🛠️ Tech Stack
+
+Python
+
+Pandas, NumPy
+
+Scikit-learn
+
+Matplotlib, Seaborn, Plotly
+
+Streamlit
+
+---
+
+## 👤 Author
+**Sharifatu Musah**
+Data Analyst
