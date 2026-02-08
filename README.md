@@ -170,7 +170,6 @@ Input new customer details
 
 Predict churn probability in real time
 
-Live App: http://localhost:8502/
 
 ---
 
